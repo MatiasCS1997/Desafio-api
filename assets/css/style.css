@@ -1,0 +1,47 @@
+#error {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: #2ad221;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(241, 240, 255);
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3.5rem;
+  margin: 1.5rem;
+  color: white;
+  background-color: #f91d00b3;
+}
+
+.selector {
+  display: flex;
+  justify-content: center;
+}
+
+#btn {
+  width: 10.7rem;
+  height: 2.5rem;
+  padding: 0.3rem;
+  margin-top: 1rem;
+  background-color: #ffec20;
+}
+
+#myChart {
+  margin-bottom: 1rem;
+}
+
+hr {
+  width: 20rem;
+}
