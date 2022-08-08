@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Conversor</title>
-</head>
-<body>
-    <p id="error">Esperando respuesta servidor</p>
+  </head>
+  <body>
+    <p id="error">Esperando respuesta</p>
 
     <div class="container">
       <hr />
-      <h1>Conversor de monedas Nacional</h1>
+      <h1>Conversor de monedas</h1>
       <hr />
 
       <div class="box">
@@ -27,8 +27,28 @@
           />
         </div>
 
+        <p>Convertir moneda</p>
+
+        <select
+          class="selector"
+          id="selectTypeMoney"
+          type="text"
+          placeholder="Money"
+        >
+          <option value="Seleccione Moneda">Moneda</option>
+          <option value="dolar">Dolar</option>
+          <option value="uf">UF</option>
+        </select>
+
+        <button id="btn">Buscar</button>
+        <p id="resultado">....</p>
+      </div>
+
+      <div>
+        <canvas id="myChart" width="1200" height="400"></canvas>
+      </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="assets/js/JavaScript.js"></script>
-</body>
+  </body>
 </html>
